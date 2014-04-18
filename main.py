@@ -10,7 +10,7 @@ class WebApp(TornadoHTTPTask):
 
         def get(self, trailer=None):
             self.task.logger.info("GET /%s", trailer)
-            self.redirect('https://github.com/fmoo/sparts')
+            self.redirect('https://github.com/facebook/sparts')
 
     def getApplicationConfig(self):
         return [
